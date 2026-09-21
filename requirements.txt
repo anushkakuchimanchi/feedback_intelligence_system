@@ -1,0 +1,8 @@
+pandas
+google-play-scraper
+sentence-transformers
+scikit-learn
+numpy
+anthropic
+streamlit
+python-dotenv
