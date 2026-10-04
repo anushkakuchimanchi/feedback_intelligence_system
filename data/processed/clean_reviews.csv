@@ -1,4 +1,33 @@
 review_text,rating,date,review_id
 "I understand, You guys had to nerf the App to fit Google's Terms... But apart from the features removal, you guys added so much to the Playstore app that the 2025 Termux on FDroid feels outdated :(",3,2026-09-19 22:46:33,3
-This is a hack app,5,2026-09-19 11:09:19,4
-Download on F-Droid instead for a up-to-date experience,5,2026-09-18 21:01:34,6
+"trusted app, needs new permission. unable to access local resources due to new local network access requirement.",4,2026-09-17 17:57:53,10
+too much glitches cant do any practical s,1,2026-09-15 19:35:21,16
+scummy fork from the original that was open source. Do better,1,2026-09-14 06:36:58,18
+Can't use unless in split screen sounds like a scam to me,1,2026-09-14 03:59:11,19
+an amazing app even tho could not get mpv and or vlc or even outside apps working to trigger for certain media types to watch inside it...I still love this app.,5,2026-09-10 12:35:21,22
+"After Android 17 update, Termux will no longer connect to local network addresses. It needs nearby devices permissions, but the developer hasn't added it and doesn't respond to emails. Still works over Tailscale or addresses on the internet, just not local, which is what I mainly used it for!",2,2026-09-05 17:55:45,25
+I am new to using Termux and also to Python so maybe it's something I did wrong or an error Gemini made but... it tells me that the Play Store download of Termux is old and can't be updated. Is this true? Why is it here if it isn't the best version available for Android?? App appears to work okay but I ran into issues which is how I ended up being told it's an outdated version & to download it elsewhere. I may change my rating if I get a thoughtful & informative developer response about this,2,2026-09-05 17:43:49,26
+get the one from fdroid or GitHub it's better,5,2026-09-04 06:08:58,27
+Go to their website and download it there like they recommend — Very useful a commandline tool for Android pretty much. You need to download extra packages for things like python or mpv but that's not too kuch space — If I had to pick one annoying thing you can't see whether a terminal is running code at the moment with the notification or just listening and that might make you run something in the background while you forgot,5,2026-09-02 18:01:46,30
+"very effective, but when it's on my new device, it doesn't bug, but on this deevice it keeps saying [[]23[][[ everytime. it keeps repeating for minutes, but still, it's a good app tho.",4,2026-08-31 11:26:44,33
+"cool, I can run many fun codes in it. and, I'm doing vm things and it results good to. but with less powerful phones.. that gets messy too😉",4,2026-08-30 08:56:45,35
+"Everything is very good, except one thing. I can't install some basic software. I can't even use fastfetch, and other basic software. I like it, but it has some software limitations. Great app btw, thanks for making this.",4,2026-08-29 02:45:53,38
+"good for pinging, you cant sudo because of android restrictions unless you root your phone but that isnt the developers fault one thing that would be even better is if you could makenthe widget smaller but the fact there is even a widget is surprising",5,2026-08-27 03:53:06,40
+"it's a bit hilariously silly that it doesn't have a settings menu. this app definitely forgot it's an app and is trying to be veeery ""smarter at computers than thou"". unfortunately no one told termux that good UI isn't equivalent to casual app. It IS a straight up terminal though, and that's cool for what it is.",2,2026-08-27 01:33:13,41
+that no power app no power,1,2026-08-26 18:10:17,43
+I re downloaded it because I was trying to set it up and it just crashed and it said y and I tried deleting it for a good 5 minutes didn't work I tried closing the app and reopened it but hopefully it works this time. I used termux b4 and never ever had dis problem,2,2026-08-24 23:57:19,50
+Android 17 broke Termux vpn/network connections. This app has no purpose now.,1,2026-08-20 16:39:06,55
+app is good but stupid does not even let u paste what u want to ran foolish app🥵,3,2026-08-14 17:33:08,61
+SSH does not work on Android 17. SSH was the only thing I used this app for.,1,2026-08-14 09:22:36,63
+good with x11 The nano work correctly py and c are OK. but please add add-in display without x11 Tnx,5,2026-08-11 01:12:31,68
+great but kali was way better,5,2026-08-10 05:46:28,70
+"get the version from GitHub, this is abandoned",5,2026-08-05 15:31:15,77
+WHY it takes so long to download Is this a virus?,1,2026-08-04 21:38:21,78
+it is showing error in first command pkg install update and nmaP command,2,2026-08-04 15:16:05,80
+Recently lost the ability to do networking. e.g. ssh hangs.,2,2026-08-03 17:15:10,82
+increase pasting clipboard limit text,5,2026-08-02 17:47:33,85
+not secure app 😔,5,2026-08-02 14:45:06,86
+app needs ACCESS_LOCAL_NETWORK permission! without these declared ssh will no longer work with latest pixel update.,3,2026-08-02 01:01:25,89
+works great doesn't shut down like pi Droid when you're running large log files but it can be shut off somehow remotely,3,2026-07-30 11:51:15,93
+Termux make you in kali Linux but on phone and this is Un updated version termux from Google play is now broken the good version from f droid,5,2026-07-28 22:38:46,96
+"Awesome tool, all the right features great UX. The only gripe I have with it is that the special button bar that's customizable can't retain state for some reason.",5,2026-07-25 22:33:17,98
