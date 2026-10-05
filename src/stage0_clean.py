@@ -6,7 +6,9 @@ import time
 import json
 import os
 from utils import call_llm
-
+import os
+if os.path.exists('data/processed/clean_reviews_partial.csv'):
+    os.remove('data/processed/clean_reviews_partial.csv')
 BATCH_SIZE = 25          # fewer, bigger batches = fewer total requests, stays under 500/day easily
 SLEEP_BETWEEN_BATCHES = 5  # 15 req/min limit = 1 every 4s minimum; 5s gives safety margin
 

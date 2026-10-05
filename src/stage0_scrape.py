@@ -7,7 +7,7 @@ def scrape_reviews():
         lang='en',
         country='us',
         sort=Sort.NEWEST,
-        count=10000
+        count=50000
     )
     df = pd.DataFrame(result)
     df = df[['content', 'score', 'at']]

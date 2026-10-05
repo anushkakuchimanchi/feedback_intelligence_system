@@ -8,11 +8,14 @@ load_dotenv(os.path.join(os.path.dirname(__file__), '..', '.env'))
 from openai import OpenAI
 
 client = OpenAI(
-    api_key=os.getenv("GEMINI_API_KEY"),
-    base_url="https://generativelanguage.googleapis.com/v1beta/openai/"
+    api_key=os.getenv("GROQ_API_KEY"),
+    base_url="https://api.groq.com/openai/v1"
+    # api_key=os.getenv("GEMINI_API_KEY"),
+    # base_url="https://generativelanguage.googleapis.com/v1beta/openai/"
 )
 
-MODEL = "gemini-3.6-flash"
+#MODEL = "gemini-3.6-flash"
+MODEL = "openai/gpt-oss-120b"
 
 def call_llm(prompt, max_tokens=800, retries=4):
     for attempt in range(retries):
