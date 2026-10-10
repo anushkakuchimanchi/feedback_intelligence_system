@@ -8,7 +8,7 @@ load_dotenv(os.path.join(os.path.dirname(__file__), '..', '.env'))
 from openai import OpenAI
 
 client = OpenAI(
-    api_key=os.getenv("GROQ_API_KEY"),
+    api_key=os.getenv("GROQ_API_KEY1"),
     base_url="https://api.groq.com/openai/v1"
     # api_key=os.getenv("GEMINI_API_KEY"),
     # base_url="https://generativelanguage.googleapis.com/v1beta/openai/"
