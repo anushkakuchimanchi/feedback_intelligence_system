@@ -25,6 +25,8 @@ def call_llm(prompt, max_tokens=800, retries=4):
                 max_tokens=max_tokens,
                 messages=[{"role": "user", "content": prompt}],
                 extra_body={"reasoning_effort": "low"},
+                temperature=0,
+                seed=42,
             )
             return response.choices[0].message.content
         except Exception as e:

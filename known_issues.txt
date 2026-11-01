@@ -1,0 +1,8 @@
+Termux on Google Play is deprecated and no longer updated; the last Play Store release for Android 7 and above was v0.101, and users are told to install from F-Droid or GitHub instead.
+An experimental Google Play build exists for Android 11 and above with missing functionality and bugs compared to the F-Droid build, and it is developed separately from the main app.
+Installing Termux or its plugins over an install from a different source fails with a signature mismatch; users must back up their data, uninstall all Termux apps, and reinstall everything from a single source.
+Old Play Store builds use dead Bintray repository URLs, which causes package update and install failures; the fix is to run termux-change-repo and pick a working mirror.
+On Android 12 and above the phantom process killer terminates Termux background processes, so terminal sessions close, get killed, or are lost when the app is minimized or left running in the background, and the terminal shows "Process completed (signal 9)".
+Termux only supports Android 7 and above; Android 5 and 6 are no longer supported.
+Termux keeps targeting SDK 28 because of Android 10 restrictions on executing files, which is why Play Store builds broke and are not being updated.
+F-Droid releases can lag GitHub releases by several days to a week or more.

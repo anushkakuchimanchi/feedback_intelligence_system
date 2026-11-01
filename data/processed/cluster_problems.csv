@@ -1,0 +1,22 @@
+cluster_id,title,problem_type,underlying_need,actionable,coherence
+0,Package Installation and Tool Setup Failures,defect,Users need a stable environment where packages and tools can be installed or upgraded without errors or missing components.,True,high
+1,App broken after updates,defect,"A stable, functional version of Termux that works reliably after installation and updates.",True,high
+2,Typing and cursor navigation problems,defect,Users need reliable keyboard input and full cursor movement support so they can enter and edit commands without errors or delays.,True,high
+3,Insufficient Features and Documentation,missing_feature,"Users need more functionality, better documentation, and access to system features such as root, additional packages, and UI controls to fully utilize Termux.",True,high
+4,App fails to install or run on devices,defect,Customers need a reliably installable and compatible version of Termux that works across their Android devices and updates without breaking functionality.,True,high
+5,Termux Installation and Launch Failures,defect,Users need a reliable way to install and start Termux across devices and Android versions without crashes or missing functionality.,True,high
+6,Package Repository and SSH Access Failures,defect,"Users need a stable, accessible package repository and functional SSH capabilities so they can install, update, and manage software without errors.",True,high
+7,Poor usability and lack of guidance,usability,"Users need clearer onboarding, intuitive interface, and better documentation to understand how to use the app and its permissions without confusion.",True,medium
+8,Commands Not Executing Properly,defect,The app must reliably run standard Linux commands without errors or hangs after installation or updates.,True,high
+9,Pkg/apt package installation failures,defect,Users need a reliable way to update and install packages in Termux without errors or missing installations.,True,high
+10,Storage permission and access failures,defect,"Users need reliable access to both internal and external storage so they can read, write, manage files and install packages without permission errors.",True,high
+11,Termux performance and slow behavior,performance_reliability,"Customers need the app to run responsively and complete installations and package operations quickly, without noticeable lag after updates.",True,high
+12,Bootstrap Package Installation Failure,defect,Users need a reliable way to download and install the required bootstrap files so the app can be set up and used.,True,high
+13,Python package installation failures,defect,"Users need a reliable way to install Python packages (e.g., numpy, scipy, pygame, nltk, spaCy, Pillow) within Termux without errors.",True,high
+14,False network connectivity detection,defect,Users need the app to accurately recognize a working internet connection and allow network commands to function reliably.,True,high
+15,Permission and Access Denial Issues,defect,Users need the app to obtain and retain the necessary permissions and authentication to function fully without being blocked or banned.,True,high
+16,Root Access Not Available,defect,Users need a reliable way to execute commands with root privileges within Termux on their Android devices.,True,high
+17,Metasploit Installation Failures,defect,Users need a reliable way to install and update Metasploit and related packages within Termux without errors or hangs.,True,high
+18,Unstable and Lost Sessions,defect,"Users need their terminal sessions to remain active and retain history across app minimization, switching, and prolonged use.",True,high
+19,OpenSSH package installation failures,defect,Users need a reliable way to locate and install the OpenSSH package (and related tools) without broken links or missing dependencies.,True,high
+20,Package Mirror Connectivity Failure,defect,Users need reliable access to functional package mirrors so they can update the app and install or upgrade packages without errors.,True,high

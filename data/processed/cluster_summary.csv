@@ -1,0 +1,22 @@
+cluster_id,size,cohesion,top_category,evidence_1,evidence_2,evidence_3,weak
+0,594,0.8384602069854736,bug,Package installation fails,Package installation fails and needs fixing,Package installation fails after the latest update,False
+1,524,0.8520468473434448,bug,App fails to work and needs a major update,App that previously worked is now non‑functional,App is full of bugs and no longer works,False
+2,480,0.8174050450325012,bug,Typing-related bugs need fixing,Typing commands results in errors and makes correction difficult,Typing issues in the current version,True
+3,420,0.841841459274292,feature_request,Request to provide root access functionality,Request for additional features,User requests comprehensive documentation for the app,False
+4,408,0.8414608836174011,bug,App is reported as incompatible with the device after an update,App does not work on the user's device and needs an update,The Play Store version is outdated and fails to install,False
+5,325,0.8752676844596863,bug,Termux fails to install on the device,Termux does not start or run on the user’s device,Cannot install Termux on the device,False
+6,252,0.8716697096824646,bug,"Repositories are down, preventing any package operations",The package repository is unavailable or broken,"Repositories are unavailable, preventing package access.",False
+7,154,0.8821071982383728,usability,User finds the app not easy to use,User finds the app difficult to use,The app is hard to use for new users,False
+8,151,0.8683273792266846,bug,Certain commands fail to run correctly,Some commands fail to run at all.,Certain commands produce errors and do not work,False
+9,133,0.9061850905418396,bug,`pkg update` fails to install,`pkg update` fails and no packages can be installed,`pkg install` commands are failing,False
+10,107,0.8442779183387756,bug,"Cannot grant external storage permission, making the app unusable.",App cannot obtain permission to access storage,App does not request correct storage permissions,False
+11,104,0.8602219820022583,performance,App is slow and exhibits buggy behavior on the device,the app runs very slowly at times,The app runs slowly after the latest update,False
+12,86,0.9158095717430115,bug,Bootstrap package fails to install,Bootstrap packages fail to install,"Bootstrap packages fail to install, preventing the app from being usable",False
+13,84,0.8811936974525452,bug,Python package cannot be installed.,Unable to install the Python package.,Python package cannot be installed,False
+14,77,0.8453521728515625,bug,Internet connection errors persist,"Ping command fails, indicating network connectivity problems","Shows ""check internet connection"" error despite stable connection",False
+15,71,0.8143014311790466,bug,"Required permissions are denied, preventing the app from functioning",User reports being banned from using the app,User cannot obtain full access within the app,True
+16,62,0.8492302298545837,bug,"Certain commands return “permission denied”, unclear if rooting is required",`sudo su` fails to obtain root privileges,Unable to obtain root permissions,False
+17,44,0.9200019836425781,bug,Metasploit fails to install.,Metasploit cannot be installed,Installation of Metasploit fails,False
+18,42,0.8582627177238464,bug,Sessions randomly close or are lost,"Sessions close after a while and cannot be resumed, history is lost",Sessions are automatically killed after about 5 minutes,False
+19,25,0.8978193402290344,bug,Installation of the openssh package fails,openssh package fails to install,Cannot locate the OpenSSH package,False
+20,24,0.9097206592559814,bug,Mirror error prevents downloading or updating packages,Package installation fails due to mirror errors,Mirrors fail to update,False
